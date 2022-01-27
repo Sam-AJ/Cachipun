@@ -9,25 +9,26 @@
     <title>Cachipún</title>
 </head>
 <body>
-    <header>
-
+    <header class="text-center text-light py-5">
+        <h1>Cachipún!</h1>
     </header>
-
-    <section class="container d-flex justify-content-center botones">
-        <button class="boton" id="bPiedra">✊</button>
-        <button class="boton" id="bPapel">✋</button>
-        <button class="boton" id="bTijera">✌</button>
-    </section>
 
     <section class="container mt-5">
         <table class="table table-responsive tex">
             <thead class="text-center">
                 <tr>
-                    <th style="width: 50%;">Tú</th>
-                    <th style="width: 50%;">Computador</th>
+                    <th style="width: 50%;">Tú <span id="puntos-humano">0</span></th>
+                    <th style="width: 50%;">Computador <span id="puntos-ia">0</span></th>
                 </tr>
             </thead>
         </table>
+        <div id="resultado" class="text-center pt-4 pb-4">
+            
+        </div>
+
+        <div id="resultado-final" class="d-flex justify-content-center">
+
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
